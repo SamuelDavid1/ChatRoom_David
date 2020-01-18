@@ -1,0 +1,102 @@
+
+.label {
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-text-fill: lightblue;
+  -fx-alignment: center-left;
+}
+
+.text-field {
+  -fx-font-size: 16px;
+
+  -fx-alignment: center-left;
+}
+
+.button {
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-text-fill: black;
+}
+
+.text-area {
+  -fx-font-family: monospace;
+  -fx-text-fill: black; 
+  -fx-font-size: 18px;
+}
+
+#MainBox {
+	-fx-padding: 0 10 0 10;
+}
+
+#ChatroomBox {
+	-fx-padding: 0 10 0 10;
+	-fx-alignment: top-right;
+}
+
+#TopBox {
+	-fx-alignment: center-left;
+	-fx-spacing: 5px;
+	-fx-padding: 20 0 20 0;
+}
+
+#CenterBox {
+	-fx-alignment: center-right;
+	-fx-spacing: 5px;
+	-fx-padding: 20 0 20 0;
+}
+
+#btnBox {
+	-fx-alignment: center-left;
+	-fx-spacing: 5px;
+	-fx-padding: 20 0 20 0;
+}
+
+#BottomBox {
+	-fx-alignment: center-left;
+	-fx-spacing: 5px;
+	-fx-padding: 20 0 20 0;
+}
+
+#IP {
+	-fx-pref-width: 200px;
+}
+
+#Port {
+	-fx-pref-width: 100px;
+}
+
+#root {
+	-fx-background-color: grey;
+	-fx-alignment: center;
+}
+
+.menu-bar {
+  	-fx-background-color: dimgray;
+}
+
+.cell {
+	-fx-text-fill: black;
+}
+
+.cell:selected {
+	-fx-background-color: lightblue;
+}
+
+.check-box {
+	-fx-font-size: 16px;
+	-fx-text-fill: lightblue;
+	-fx-font-weight: bold;
+}
+
+.button:hover{
+	-fx-background-color: lightblue;
+}
+
+.check-box > .box {
+    -fx-padding: 10.5px;
+}
+
+.check-box:selected>.box>.mark{
+  
+}
+
